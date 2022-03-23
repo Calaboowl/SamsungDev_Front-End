@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #titulo {
+        text-align: center;
+        color: blue;
+        text-shadow: 2px 2px 4px yellow;
+    }
+
+    fieldset {
+        background-color: cyan;
+        border: 3px solid rgb(11, 236, 236);
+        border-radius: 5px;
+    }
+
+    legend {
+        background-color: red;
+        color: white;
+        border-radius: 2px;
+        box-shadow: inset 1px 1px 2px lightcoral, inset -1px -1px 1px rgb(182, 12, 12), 1px 1px 2px gray;
+    }
+
+    input[type=text] {
+        background-color: yellow;
+        border: none;
+        box-shadow: inset 0px 0px 2px;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: lightpink;
+        width: 100px;
+        border-radius: 3px;
+        border: none;
+        box-shadow: 1px 1px 2px;
+    }
+
+    button:hover {
+        background-color: rgb(255, 128, 147);
+        color: white;
+        box-shadow: inset 1px 1px 2px black;
+    }
+
+    p {
+        display: inline; color: gray;
+    }
